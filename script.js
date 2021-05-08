@@ -3,7 +3,7 @@
     const txtAdSoyad=document.getElementById("txtAdSoyad");
     const txtMesaj=document.getElementById("txtMesaj");
 
-  //İkinci yöntem,asenkron çalışma
+  //İkinci yöntem,asenkron fonksiyon
   
   formIletisim.addEventListener("submit",verileriKaydet);
 
@@ -30,7 +30,7 @@
   }
 
 
-//Birinci yöntem,senkon çalışma
+//Birinci yöntem
 /*
 formIletisim.addEventListener('submit', veriKaydet);
 
