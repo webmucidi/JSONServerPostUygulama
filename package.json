@@ -1,0 +1,14 @@
+{
+  "name": "jsonserverpostuygulama",
+  "version": "1.0.0",
+  "description": "Local Fetch Post on JSON API",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}

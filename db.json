@@ -1,0 +1,59 @@
+{
+  "mesajlar": [
+    {
+      "id": "1",
+      "mesajGonderen": "Fatih Çelik",
+      "mesajIcerik": "Merhaba"
+    },
+    {
+      "mesajGonderen": "Ahmet",
+      "mesajIcerik": "sss",
+      "id": "QRJGywv"
+    },
+    {
+      "mesajGonderen": "fatih",
+      "mesajIcerik": "aaa",
+      "id": "NIaLQna"
+    },
+    {
+      "mesajGonderen": "Yağmur",
+      "mesajIcerik": "hhh",
+      "id": "8IFiszT"
+    },
+    {
+      "mesajGonderen": "Osman",
+      "mesajIcerik": "silly",
+      "id": "5kt2RnT"
+    },
+    {
+      "mesajGonderen": "Kamil",
+      "mesajIcerik": "lan",
+      "id": "lcqWOkv"
+    },
+    {
+      "mesajGonderen": "Zehra",
+      "mesajIcerik": "hasta",
+      "id": "an_UTMA"
+    },
+    {
+      "mesajGonderen": "Ahu",
+      "mesajIcerik": "uyuyor",
+      "id": "seXq7Wn"
+    },
+    {
+      "mesajGonderen": "semiha",
+      "mesajIcerik": "anne",
+      "id": "0ueHnpQ"
+    },
+    {
+      "mesajGonderen": "mahmut",
+      "mesajIcerik": "aaa",
+      "id": "VFesiTK"
+    },
+    {
+      "mesajGonderen": "Ahmet",
+      "mesajIcerik": "zzz",
+      "id": "5xQVbS9"
+    }
+  ]
+}
