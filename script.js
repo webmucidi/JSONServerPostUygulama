@@ -59,6 +59,7 @@
   
     let veriler=await sunucuYaniti.json();
     console.log(veriler);
+    alert("Veri kaydı yapıldı.");
     
   }
 
@@ -85,5 +86,6 @@ fetch('http://localhost:3000/mesajlar', {
 })
   .then((response) => response.json())
   .then((veriler) => console.log(veriler));
+  alert("Veri kaydı yapıldı.");
 }
 */
