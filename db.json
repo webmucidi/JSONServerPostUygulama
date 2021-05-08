@@ -22,7 +22,7 @@
     },
     {
       "mesajGonderen": "Osman",
-      "mesajIcerik": "silly",
+      "mesajIcerik": "derste",
       "id": "5kt2RnT"
     },
     {
@@ -54,6 +54,11 @@
       "mesajGonderen": "Ahmet",
       "mesajIcerik": "zzz",
       "id": "5xQVbS9"
+    },
+    {
+      "mesajGonderen": "Ahu Beren Çelik",
+      "mesajIcerik": "breakfast",
+      "id": "5keHA80"
     }
   ]
 }
