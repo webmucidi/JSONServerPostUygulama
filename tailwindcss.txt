@@ -1,0 +1,36 @@
+Ön şart: node.js yüklü ve projede package.json dosyası oluşturulmuşsa.("npm -v" ile node.js yükleme kontrol,"npm init" ile package.json oluşturma)
+
+1) "npm install -D tailwindcss@latest postcss@latest autoprefixer@latest" komutu ile tailwindcss kütüphanesi projeye çağırılır.
+
+2) "@tailwind base;
+@tailwind components;
+@tailwind utilities;"
+komutlarını alıp kök dizinde src isimli bir klasör açıp altına tailwindstyle.css dosyası oluşturduktan sonra kaydedin.
+
+3) package.json içerisindeki scripts altındaki test alanının olduğu bölümü "build:css": "tailwind build src/tailwindstyle.css -o style.css" olarak güncelleyin.
+
+4) Terminal > npm run build:css yazarak ana kaynak tailwind css stillerini kendi proje stil dosyamıza çıktı olarak aktaralım.
+
+5) Artık html dosyamızda nesnelere tailwind utility yani özelliklerini atayabiliriz. Intellisense için "Tailwind CSS Intellisense/HTML CSS Support/IntelliSense for CSS class names in HTML" eklentisini kurmak gerekebilir.
+(Ctrl+space ile aktifleştir. Olmazsa ayarlardan include languages ayarını yap. Ayar dosyası oluşturmak için sonraki adıma geç)
+
+6) Terminal > npx tailwindcss init komutu ile ayar dosyasını oluşturalım.
+
+7) Bu sayede her özelliği yerel değil global olarak da tanımlayabiliriz. (tailwind.config.js)
+
+8)  Config dosyasında aşağıdaki gibi ön tanımlı ayarlar belirlenebilir.
+ theme: {
+    'goblin': ['Goblin One', 'sans-serif'],
+  }
+
+9) src>tailwindstyle.css dosyasına kendi stillerimizi ekleyebiliriz.
+Örnek:	
+.btn{
+    @apply p-2 m-5 text-white bg-red-400 rounded hover:bg-red-900 font-goblin;
+}
+
+10) Bunlar dışında hazır ayarlar için plugin kullanabiliriz. Bunun için config dosyasındaki plugins alanına:
+
+    require("@tailwindcss/forms")({
+      strategy: 'class',
+    }),
